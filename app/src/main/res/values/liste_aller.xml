@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="liste_aller">
+        <item>Beni</item>
+        <item>Patrik</item>
+        <item>Andi</item>
+        <item>Daniel</item>
+        <item>Sany</item>
+        <item>Leon</item>
+    </string-array>
+</resources>

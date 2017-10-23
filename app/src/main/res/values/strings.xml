@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Doroga</string>
+
+    <string name="uberbrucken_title">Ergebns</string>
+
+    <string name="pannenhilfe_title">Ergebns1</string>
+
+    <string name="abschleppen_title">Ergebnis2</string>
+
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="action_daten_aktualisieren">Aktualisieren</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

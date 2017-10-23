@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="de.jabsel.doroga.app.Uber_Activity"
+    android:id="@+id/activity_uber_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#96CDCD">
+    <TextView
+        android:text="Hier finden Sie_"
+        android:id="@+id/header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        tools:ignore="HardcodedText" />
+
+        <ListView
+           android:id="@+id/liste_allerList"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="76dp"
+           android:layout_weight="0.72"
+           android:entries="@array/liste_aller" />
+
+
+</RelativeLayout>
